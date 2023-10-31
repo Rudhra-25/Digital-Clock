@@ -1,0 +1,34 @@
+body{
+  background-color: lavenderblush;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#ClockDisplay{
+  border: 2px solid deeppink;
+  border-radius: 10px;
+  color: navy;
+  font-size: 60px;
+  font-family: orbitron;
+  letter-spacing: 7px;
+  transition: transform 0.5s ease-out;
+  padding: auto;
+  width: 45%;
+  margin: auto;
+  text-align: center;
+}
+#ClockDisplay:hover{
+  background-color: navy;
+  color: deeppink;
+  transform: scale(1.2);
+  border: 2px solid beige;
+}
+h1{
+  font-weight: 100;
+  font-size: 70px;
+  font-family: young serif;
+  color: deeppink;
+  text-align: center;
+}
